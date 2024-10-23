@@ -4,75 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PhotoBlog</title>
+    <link rel="icon" href="img/website-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#">LIFESTYLE</a></li>
-                <li><a href="#">PHOTODIARY</a></li>
-                <li><a href="#">MUSIC</a></li>
-                <li><a href="#">TRAVEL</a></li>
+            <ul class="header-nav">
+                <li><a class="header-item" href="#">LIFESTYLE</a></li>
+                <li><a class="header-item" href="#">PHOTODIARY</a></li>
+                <li><a class="header-item" href="#">MUSIC</a></li>
+                <li><a class="header-item" href="#">TRAVEL</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <div>
-            <img src="img/image1.png" alt="1 Картинка">
-            <p>LIFESTYLE</p>
-            <h3>More than just a music festival</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea.</p>
-            <div>
-                <img src="img/image2.png" alt="2 Картинка">
-                <p>LIFESTYLE</p>
-                <h3>Life tastes better with coffee</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        <div class="card-container">
+            <div class="card" data-aos="fade-left">
+                <img src="img/image1.png" alt="1 Картинка">
+                <p class="sub-heading">LIFESTYLE</p>
+                <h3 class="heading">More than just a music festival</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut aliquip ex ea.</p>
-                <div>
-                    <img src="img/image3.png" alt="3 Картинка">
-                    <p>LIFESTYLE</p>
-                    <h3>American dream</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea.</p>
-                    <div>
-                        <img src="img/image4.png" alt="4 Картинка">
-                        <p>PHOTODAIRY</p>
-                        <h3>A day exploring the Alps</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea.</p>
-                        <div>
-                            <img src="img/image5.png" alt="5 Картинка">
-                            <p>LIFESTYLE</p>
-                            <h3>Top 10 song for running</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea.</p>
-                        </div>
-                        <div>
-                            <img src="img/image6.png" alt="6 Картинка">
-                            <p>LIFESTYLE</p>
-                            <h3>Cold winter days</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea.</p>
-                        </div>
+            </div>
+
+            <!-- card -->
+
+            <div class="card" data-aos="fade-left">
+                <img src="img/image2.png" alt="2 Картинка">
+                <p class="sub-heading">LIFESTYLE</p>
+                <h3 class="heading">Life tastes better with coffee</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea.</p>
+            </div>
+
+            <!-- card -->
+
+            <div class="card" data-aos="fade-left">
+                <img src="img/image3.png" alt="3 Картинка">
+                <p class="sub-heading">LIFESTYLE</p>
+                <h3 class="heading">American dream</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea.</p>
+            </div>
+
+            <!-- card -->
+
+            <div class="card" data-aos="fade-left">
+                <img src="img/image4.png" alt="4 Картинка">
+                <p class="sub-heading">PHOTODAIRY</p>
+                <h3 class="heading">A day exploring the Alps</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea.</p>
+            </div>
+
+            <!-- card -->
+
+            <div class="card" data-aos="fade-left">
+                <img src="img/image5.png" alt="5 Картинка">
+                <p class="sub-heading">LIFESTYLE</p>
+                <h3 class="heading">Top 10 song for running</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea.</p>
+            </div>
+
+            <!-- card -->
+
+            <div class="card" data-aos="fade-left">
+                <img src="img/image6.png" alt="6 Картинка">
+                <p class="sub-heading">LIFESTYLE</p>
+                <h3 class="heading">Cold winter days</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea.</p>
+            </div>
+            <button>Load more</button>
+        </div>
+
     </main>
-    <footer>
-        <a href="#">Load more</a>
-    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
