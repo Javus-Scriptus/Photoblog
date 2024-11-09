@@ -1,35 +1,4 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-/* header */
-
-.header-nav {
-  display: flex;
-  gap: 99px;
-  margin: 92px auto;
-  /* outline: 2px solid red; */
-  width: 555px;
-}
-
-.header-item {
-  color: #7d7d7d;
-  font-family: 'Playfair Display';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-}
-
-.header-item:hover {
-  color: #03a9f4;
-}
-
-/* main */
+// body
 
 .card-container {
   display: flex;
@@ -82,22 +51,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-button {
-  color: #626262;
-  font-family: 'Playfair Display';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: 1px solid #626262;
-  padding: 20px 49px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 66px;
- cursor: pointer;
- background-color: transparent;
 }
 
 @keyframes rotate-center {
