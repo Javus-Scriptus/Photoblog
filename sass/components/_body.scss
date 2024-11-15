@@ -1,6 +1,6 @@
 // body
 
-.card-container {
+.card__container {
   display: flex;
   flex-wrap: wrap;
   gap: 73px;
@@ -23,7 +23,7 @@
   animation: rotate-center 0.6s ease-in-out both;
 }
 
-.sub-heading {
+.sub__heading {
   color: #b4ad9e;
   font-family: 'Ubuntu';
   font-size: 14px;

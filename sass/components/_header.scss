@@ -1,23 +1,23 @@
 // header
 
-.header-nav {
+.header__list {
   display: flex;
   gap: 99px;
   margin: 92px auto;
   /* outline: 2px solid red; */
   width: 555px;
-}
 
-.header-item {
-  color: #7d7d7d;
-  font-family: 'Playfair Display';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration: none;
-}
+  .header__link {
+    color: #7d7d7d;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 
-.header-item:hover {
-  color: #03a9f4;
+    &:hover {
+      color: #03a9f4;
+    }
+  }
 }
