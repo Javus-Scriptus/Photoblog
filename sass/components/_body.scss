@@ -7,8 +7,7 @@
   /* width: 1300px; */
   width: 80%;
   /* outline: 2px solid red; */
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
   justify-content: space-between;
 }
 
@@ -24,33 +23,23 @@
 }
 
 .card__sub-heading {
-  color: #b4ad9e;
+  @extend %text;
   font-family: 'Ubuntu';
   font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
   margin-top: 62px;
 }
 
 .card__heading {
-  color: #626262;
+  @extend %text;
   font-family: 'Playfair Display';
   font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-top: 32px;
   margin-bottom: 40px;
 }
 
 .card__text {
-  color: #626262;
+  @extend %text;
   font-family: 'Playfair Display';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 @keyframes rotate-center {

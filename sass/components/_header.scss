@@ -8,14 +8,8 @@
   width: 555px;
 
   .header__link {
-    color: #7d7d7d;
-    font-family: 'Playfair Display';
+    @extend %text;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-
     &:hover {
       color: #03a9f4;
     }
