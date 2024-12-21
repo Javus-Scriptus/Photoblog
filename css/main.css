@@ -42,7 +42,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 73px;
   /* width: 1300px; */
   width: 80%;
   /* outline: 2px solid red; */
@@ -61,6 +60,8 @@
           flex-direction: column;
   /* width: 420px; */
   width: 47%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -85,6 +86,22 @@
   font-family: "Playfair Display";
 }
 
+.load-button {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #626262;
+  padding: 20px 49px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 66px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -105,19 +122,4 @@
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
-button {
-  color: #626262;
-  font-family: "Playfair Display";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: 1px solid #626262;
-  padding: 20px 49px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 66px;
-  cursor: pointer;
-  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */

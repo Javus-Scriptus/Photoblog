@@ -3,7 +3,7 @@
 .card__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 73px;
+  // gap: 73px;
   /* width: 1300px; */
   width: 80%;
   /* outline: 2px solid red; */
@@ -16,6 +16,8 @@
   flex-direction: column;
   /* width: 420px; */
   width: 47%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -42,11 +44,37 @@
   font-family: 'Playfair Display';
 }
 
+.load-button {
+    color: #626262;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #626262;
+    padding: 20px 49px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
 @keyframes rotate-center {
   0% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .card__container {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
   }
 }
